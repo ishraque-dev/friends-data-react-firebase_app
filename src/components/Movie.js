@@ -11,11 +11,8 @@ const Movie = (props) => {
     >
       <h2>{props.title}</h2>
       <p>{props.openingText}</p>
-      <a href={props.releaseDate} target="_blank">
-        <h3>
-          <span>👉</span>
-          {props.releaseDate}
-        </h3>
+      <a href={props.releaseDate}>
+        <h3>{props.releaseDate}</h3>
       </a>
     </li>
   );

@@ -82,8 +82,8 @@ function App() {
       </section>
       <section>{content}</section>
       <h4 style={{ textAlign: 'center', color: 'white' }}>
-        Made for fun with 💟 by{' '}
-        <a href="https://github.com/deveish-ts" target="_blank">
+        Made for fun with love by{' '}
+        <a href="https://github.com/deveish-ts">
           {<AiOutlineGithub style={{ color: 'white', fontSize: '20px' }} />}{' '}
           Ishraque
         </a>
